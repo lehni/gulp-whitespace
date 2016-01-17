@@ -1,0 +1,22 @@
+{
+  "name": "gulp-whitespace",
+  "version": "0.1.0",
+  "main": "index.js",
+  "description": "Strips and converts white-space in any type of text-file.",
+  "author": "Jürg Lehni <juerg@scratchdisk.com> (http://scratchdisk.com)",
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^2.0.0"
+  },
+  "homepage": "https://github.com/lehni/gulp-whitespace",
+  "repository": "https://github.com/lehni/gulp-whitespace.git",
+  "bugs": "https://github.com/lehni/gulp-whitespace/issues",
+  "keywords": [
+    "gulpplugin",
+    "javascript",
+    "strip",
+    "remove",
+    "white-space",
+    "whitespace"
+  ]
+}
