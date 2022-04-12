@@ -11,6 +11,7 @@ module.exports = function(options) {
 
     return through.obj(function(file, encoding, callback) {
         var str = file.contents.toString();
+        str = str.replace(/\s+/g, ' ').trim();
 
         if (spacesToTabs) {
             var regex = new RegExp('^((?: {' + spacesToTabs + '})+)', 'gm');
